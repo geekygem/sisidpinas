@@ -1,0 +1,15 @@
+.layout-type--flex-builder .page {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 100%;
+}
+.layout-type--flex-builder .l-attribution {
+  -webkit-order: 100;
+      -ms-flex-order: 100;
+          order: 100;
+}
+/*# sourceMappingURL=at.bc.css.map */

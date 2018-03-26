@@ -1,0 +1,60 @@
+/* Custom CSS */
+body.front {
+  margin: 0;
+  padding: 0;
+/*  Background fallback in case of IE8 &amp; down, or in case video doens't load, such as with slower connections  */
+  background: #333;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* The only rule that matters */
+body.path-frontpage #video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  *z-index: -100;
+}
+
+body.path-frontpage .video-background2 {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+
+}
+body.path-frontpage .video-foreground,
+body.path-frontpage .video-background2 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+body.path-frontpage .node {
+  opacity:0.5
+}
+
+body.path-frontpage .l-navbar {
+  margin-top:200px;
+}
+
+body.path-frontpage .site-branding__logo-img {
+  z-index:999999; 
+  position:absolute;
+}
+
+.site-branding__slogan {
+    color: #089de3;
+}
+
+.view-geolocation-demo-commonmap-with-marker-icons h2.location-title {
+    visibility: hidden;
+    margin-top: -45px;
+}

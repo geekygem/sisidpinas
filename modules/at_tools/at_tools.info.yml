@@ -1,0 +1,13 @@
+name: AT Tools
+type: module
+description: Module level features to support Adpativetheme.
+# core: 8.x
+package: Adaptivethemes
+dependencies:
+  - layout_plugin
+
+# Information added by Drupal.org packaging script on 2017-03-02
+version: '8.x-2.0'
+core: '8.x'
+project: 'at_tools'
+datestamp: 1488495800
